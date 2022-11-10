@@ -1,11 +1,8 @@
-body {
-    font-family: 'graphik_lcgregular';
-}
-
 .container {
     width: 1470px;
     margin: 0 auto;
     padding: 0 15px;
+    font-family: 'graphik_lcgregular';
 }
 
 .hed {
