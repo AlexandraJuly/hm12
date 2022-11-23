@@ -1,8 +1,5 @@
-.wrapper {
-    width: 1470px;
-    padding: 0 15px;
+body {
     font-family: 'graphik_lcgregular';
-    margin: 0 auto;
 }
 
 a {
@@ -13,14 +10,20 @@ li {
     list-style-type: none;
 }
 
+.sekt {
+    display: flex;
+}
+
 .container1 {
+    margin: 0 auto;
+    padding: 0 15px;
     display: inline-flex;
     justify-content: space-between;
     padding-left: 51px;
     padding-right: 51px;
     padding-top: 26px;
     padding-bottom: 24px;
-    width: 1440px;
+    width: 1470px;
 }
 
 .logo {
@@ -95,12 +98,13 @@ li {
 hr {
     border: 1px solid #CCCCCC;
     margin: 0 auto;
-    padding: 0 15px;
     display: flex;
 }
 
 .container2 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-left: 75px;
     padding-right: 67px;
@@ -189,9 +193,14 @@ h1 {
     height: 529px;
 }
 
+.fon3 {
+    background-color: #FF9C7D;
+}
+
 .container3 {
-    width: 1440px;
-    background: #FF9C7D;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -219,30 +228,46 @@ h1 {
     width: 1290px;
 }
 
+.fon4 {
+    margin-top: 90px;
+    margin-bottom: 250px;
+}
+
 .container4 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-left: 75px;
     padding-right: 75px;
-    margin-top: 90px;
+}
+
+.fon6,
+.fon5 {
     margin-bottom: 250px;
 }
 
 .container6,
 .container5 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-left: 75px;
     padding-right: 75px;
-    margin-bottom: 250px;
+}
+
+.fon7 {
+    margin-bottom: 150px;
 }
 
 .container7 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-left: 75px;
     padding-right: 75px;
-    margin-bottom: 150px;
 }
 
 h2 {
@@ -410,9 +435,14 @@ h2 {
     width: 50%
 }
 
-.container8 {
+.fon8 {
     background: #FFF8E4;
-    width: 1440px;
+}
+
+.container8 {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 120px;
@@ -493,7 +523,9 @@ h3 {
 }
 
 .container9 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 154px;
@@ -556,9 +588,14 @@ h4 {
     margin-bottom: 58px;
 }
 
-.container10 {
+.fon10 {
     background: #C9E8F2;
-    width: 1440px;
+}
+
+.container10 {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     padding-left: 75px;
     padding-right: 75px;
     display: inline-flex;
@@ -598,9 +635,15 @@ h4 {
     height: 310px;
 }
 
-.container11 {
+.fon11 {
     background: #DABC98;
-    width: 1440px;
+}
+
+.container11 {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
+    background: #DABC98;
     padding-left: 54px;
     padding-right: 75px;
     display: inline-flex;
@@ -665,7 +708,9 @@ h4 {
 }
 
 .container12 {
-    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: flex;
     flex-direction: column;
     padding-top: 165px;
@@ -722,9 +767,15 @@ h5 {
     padding-right: 20px;
 }
 
-.container13 {
+.fon13 {
     background: #FF9C7D;
-    width: 1440px;
+}
+
+.container13 {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
+    background: #FF9C7D;
     display: flex;
     flex-direction: column;
     padding-top: 119px;
@@ -765,9 +816,15 @@ h5 {
     padding-right: 40px;
 }
 
-.container14 {
-    width: 1440px;
+.fon15,
+.fon14 {
     background: #EEEEEE;
+}
+
+.container14 {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-top: 92px;
     padding-right: 86px;
@@ -860,8 +917,9 @@ h5 {
 }
 
 .container15 {
-    width: 1440px;
-    background: #EEEEEE;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1470px;
     display: inline-flex;
     padding-top: 52px;
     padding-right: 151px;
@@ -873,17 +931,13 @@ h5 {
 [class~="hr1"] hr {
     border: 1px solid #000000;
     background-color: #000000;
-    margin: 0 auto;
-    display: flex;
     width: 1290px;
     padding: 0;
+    margin: 0 auto;
 }
 
 .hr1 {
-    width: 1440px;
-    background-color: #EEEEEE;
     display: flex;
-    margin: 0 auto;
 }
 
 .cont11,
@@ -913,4 +967,8 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 109px;
+}
+
+footer {
+    background-color: #EEEEEE;
 }
